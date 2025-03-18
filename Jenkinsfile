@@ -14,7 +14,7 @@ pipeline {
         stage('Test') {
             steps {
                 script {
-                    sh './p2' // the correct executble name is p1, but we try to execute p2
+                    sh './p1' // the correct executble name is p1, but we try to execute p2
                 }
             }
         }
